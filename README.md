@@ -1,24 +1,14 @@
 # README
+Для запуска приложения необходимо выполнить следующие команды:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. bundle install
 
-Things you may want to cover:
+2. rake db:create db:migrate
 
-* Ruby version
+3. rails s
 
-* System dependencies
+4. для просмотра тестов используйте комманду: rspec -fd
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*Необходимо, чтобы были устанвлены: ruby on rails, postgresql, ruby
